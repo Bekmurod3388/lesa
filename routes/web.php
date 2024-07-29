@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\ClientController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -8,3 +12,14 @@ Route::get('/', function () {
 });
 Route::get('login', [LoginController::class,'loginPage'])->name('loginPage');
 Route::post('login', [LoginController::class, 'login'])->name('login');
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/', [DashboardController::class, 'dashboard'])->name('dashboard');
+
+    Route::resource('clients', ClientController::class);
+
+    Route::resource('users', UserController::class);
+
+    Route::get('my_profile', [ProfileController::class, 'index'])->name('profile.index');
+    Route::post('my_profile/update', [ProfileController::class, 'update'])->name('profile.update');
+    Route::post('logout', [LoginController::class, 'logout'])->name('logout');
+});
