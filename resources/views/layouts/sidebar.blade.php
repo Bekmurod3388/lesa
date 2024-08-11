@@ -28,6 +28,12 @@
                 <div data-i18n="Analytics">Mijozlar</div>
             </a>
         </li>
+        <li class="menu-item @if(request()->routeIs('services.index')) active @endif">
+            <a href="{{ route('services.index') }}" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-user"></i>
+                <div data-i18n="Analytics">Xizmatlar</div>
+            </a>
+        </li>
 
         @endrole
         @role('admin')

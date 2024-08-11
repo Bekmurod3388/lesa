@@ -4,6 +4,7 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,6 +17,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/', [DashboardController::class, 'dashboard'])->name('dashboard');
 
     Route::resource('clients', ClientController::class);
+    Route::resource('services', ServiceController::class);
 
     Route::resource('users', UserController::class);
 
@@ -23,3 +25,4 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('my_profile/update', [ProfileController::class, 'update'])->name('profile.update');
     Route::post('logout', [LoginController::class, 'logout'])->name('logout');
 });
+
