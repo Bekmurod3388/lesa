@@ -9,11 +9,11 @@ class Client extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'phone','address','passport'];
+    protected $fillable = ['name', 'phone','address','passport','debts'];
 
 
-//    public function tasks()
-//    {
-//        return $this->hasMany(Task::class);
-//    }
+    public function rents()
+    {
+        return $this->hasMany(Rent::class);
+    }
 }

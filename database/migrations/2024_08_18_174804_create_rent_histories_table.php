@@ -11,14 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('clients', function (Blueprint $table) {
+        Schema::create('rent_histories', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('phone')->unique();
-            $table->string('passport')->nullable();
-            $table->string('address')->nullable();
-            $table->bigInteger('debts')->default(0);
-
+            $table->bigInteger('client_id');
+            $table->integer('service_id');
+            $table->integer('difference');
+            $table->integer('before');
+            $table->integer('after');
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('clients');
+        Schema::dropIfExists('rent_histories');
     }
 };

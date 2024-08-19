@@ -18,6 +18,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::resource('clients', ClientController::class);
     Route::resource('services', ServiceController::class);
+    Route::get('client/{client}/rents',[ClientController::class,'rents'])->name('client.rents');
 
     Route::resource('users', UserController::class);
 

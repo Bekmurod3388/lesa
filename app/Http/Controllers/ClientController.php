@@ -5,19 +5,31 @@ namespace App\Http\Controllers;
 use App\Http\Requests\Clients\StoreRequest;
 use App\Http\Requests\Clients\UpdateRequest;
 use App\Models\Client;
+use App\Models\Rent;
 use App\Models\Service;
+use App\Services\RentService;
 
 class ClientController extends Controller
 {
+    public function __construct(protected RentService $rentService)
+    {
+
+    }
+
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('clients.index', [
-            'clients' => Client::query()->paginate(10),
-            'services' => Service::all(),
-        ]);
+        $clients = Client::whereHas('rents', function ($query) {
+            $query->where('status', Rent::STATUS_ACTIVE)
+                ->orderBy('created_at', 'desc');
+        })->with(['rents' => function ($query) {
+            $query->where('status', Rent::STATUS_ACTIVE)
+                ->orderBy('created_at', 'desc');
+        }])->paginate(10);
+        $services = Service::all();
+        return view('clients.index',['clients'=>$clients, 'services'=>$services]);
     }
 
     /**
@@ -25,10 +37,10 @@ class ClientController extends Controller
      */
     public function store(StoreRequest $request)
     {
-        dd($request->all());
-        Client::query()->create($request->validated());
 
-        return back()->with('success', 'Mijoz muvaffaqiyatli yaratildi!');
+        $client = Client::query()->create($request->validated());
+        $res = $this->rentService->create($request->all(),$client);
+        return back()->with($res['key'],$res['message']);
     }
 
     /**
@@ -57,5 +69,12 @@ class ClientController extends Controller
         $client->delete();
 
         return redirect()->route('clients.index');
+    }
+
+
+    public function rents(Client $client){
+        $rents = Rent::query()->where('client_id',$client->id)
+            ->where('status',Rent::STATUS_ACTIVE)->get();
+        return view('clients.rents.index',['rents'=>$rents]);
     }
 }

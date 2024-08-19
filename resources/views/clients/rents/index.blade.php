@@ -18,7 +18,7 @@
                 </form>
 
 
-                @include('clients.create')
+{{--                @include('clients.create')--}}
 
 
             </div>
@@ -27,24 +27,24 @@
                     <thead>
                     <tr>
                         <th>ID</th>
-                        <th>To'liq ism</th>
-                        <th>Telefon raqami</th>
-                        <th>Qarzdorligi</th>
-                        <th>Harakatlar</th>
+                        <th>Servis nomi</th>
+                        <th>Soni</th>
+                        <th>Qachon olganligi</th>
+                        <th>Status</th>
                     </tr>
                     </thead>
                     <tbody>
-                    @forelse($clients as $client)
+                    @forelse($rents as $rent)
                         <tr>
 
-                            <td>{{ $client->id }}</td>
-                            <td>{{ $client->name }}</td>
-                            <td>{{ $client->phone }}</td>
-                            <td>{{$client->debts}}</td>
+                            <td>{{ $rent->id }}</td>
+                            <td>{{ $rent->service->name }}</td>
+                            <td>{{ $rent->quantity }}</td>
+                            <td>{{$rent->created_at}}</td>
+                            <td>{{$rent->status}}</td>
                             <td>
                                 <div class="d-flex">
-                                    @include('clients.edit')
-                                    <a href="{{route('client.rents',[$client->id])}}" class="btn btn-success"><i class="bx bxs-cart-add"></i></a>
+{{--                                    @include('clients.edit')--}}
                                 </div>
                             </td>
                             @empty
@@ -54,9 +54,9 @@
                     </tbody>
                 </table>
                 <!-- Basic Pagination -->
-                <div class="card-body">
-                    {{ $clients->links('pagination::bootstrap-5') }}
-                </div>
+{{--                <div class="card-body">--}}
+{{--                    {{ $rents->links('pagination::bootstrap-5') }}--}}
+{{--                </div>--}}
                 <!--/ Basic Pagination -->
             </div>
         </div>
