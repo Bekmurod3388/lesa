@@ -6,19 +6,20 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel{{ $service->id }}">Siz uni qaytarib ololmaysiz!</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h5 class="modal-title">Xizmatni o‘chirish</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Yopish"></button>
             </div>
             <div class="modal-body">
-                {{ $service->name }}ni o'chirmoqchimisiz?
+                <p><strong>{{ $service->name }}</strong> xizmatini o‘chirmoqchimisiz?</p>
+                <p class="text-danger">O‘chirilgandan keyin uni tiklash mumkin bo‘ladi.</p>
             </div>
             <div class="modal-footer">
                 <form action="{{ route('services.destroy', $service->id) }}" method="POST">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="btn btn-danger">Oʻchirish</button>
+                    <button type="submit" class="btn btn-danger">O‘chirish</button>
                 </form>
-                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Yopishe</button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Bekor qilish</button>
             </div>
         </div>
     </div>

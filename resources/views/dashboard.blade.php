@@ -344,760 +344,6 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap
-                                                Project</strong>
-                                        </td>
-                                        <td>Jerry Milton</td>
-                                        <td>
-                                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Lilian Fuller"
-                                                >
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Sophia Wilkerson"
-                                                >
-                                                    <img src="../assets/img/avatars/6.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                                <li
-                                                    data-bs-toggle="tooltip"
-                                                    data-popup="tooltip-custom"
-                                                    data-bs-placement="top"
-                                                    class="avatar avatar-xs pull-up"
-                                                    title="Christina Parker"
-                                                >
-                                                    <img src="../assets/img/avatars/7.png" alt="Avatar"
-                                                         class="rounded-circle"/>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                                        <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
-                                                        data-bs-toggle="dropdown">
-                                                    <i class="bx bx-dots-vertical-rounded"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                                                    >
-                                                    <a class="dropdown-item" href="javascript:void(0);"
-                                                    ><i class="bx bx-trash me-2"></i> Delete</a
-                                                    >
-                                                </div>
-                                            </div>
-                                        </td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -1227,6 +473,119 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Modal -->
+<div class="modal fade" id="paymentModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg mt-5">
+        <div class="modal-content p-4">
+            <div class="modal-header">
+                <h5 class="modal-title">{{ __('header.replenish-Balance') }}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <!-- Payment form -->
+                <form id="form-payme" method="POST" action="#">
+                    @csrf
+                    <input type="hidden" name="merchant" value="">
+                    <input type="hidden" name="account[user_id]" value="">
+                    <input type="hidden" name="lang" value="">
+
+                    <div class="d-flex justify-content-between mb-3">
+                        <div>
+                            <label class="form-label">{{ __('header.months') }}</label>
+                            <input type="number" id="months" class="form-control" value="" min="1" />
+                        </div>
+                        <div>
+                            <label class="form-label">{{ __('header.summary') }}</label>
+                            <input type="text" id="amount" class="form-control" value="" readonly />
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <label class="fw-bold">{{ __('header.overall-Payment') }}</label>
+                        <div class="d-flex align-items-center">
+                            <input type="text" id="total" class="form-control me-2 text-end" value="" />
+                            <span class="fw-bold">{{ __('header.uzs') }}</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer justify-content-center">
+                        <button type="submit" class="btn btn-success payment-button">{{ __('header.pay-Via-Payme') }}</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("form-payme");
+        const monthInput = document.getElementById("months");
+        const amountInput = document.getElementById("amount");
+        const totalInput = document.getElementById("total");
+
+        const pricePerMonth = 0;
+
+        function updateAmount() {
+            const months = parseInt(monthInput.value) || 1;
+            const total = months * pricePerMonth;
+            amountInput.value = total;
+            totalInput.value = total;
+        }
+
+        monthInput.addEventListener("input", updateAmount);
+
+        totalInput.addEventListener("input", function () {
+            amountInput.value = totalInput.value;
+        });
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const totalValue = parseInt(totalInput.value);
+
+            if (!totalValue || totalValue < 1000) {
+                alert("Минимальная сумма — 1000 UZS");
+                return;
+            }
+
+            // remove old amount field if exists
+            const existing = this.querySelector('input[name="amount"]');
+            if (existing) existing.remove();
+
+            const hiddenAmount = document.createElement("input");
+            hiddenAmount.type = "hidden";
+            hiddenAmount.name = "amount";
+            hiddenAmount.value = totalValue * 100; // UZS -> tiyin
+            this.appendChild(hiddenAmount);
+
+            this.submit();
+        });
+
+        // Initialize
+        updateAmount();
+    });
+</script>
+
+<!-- Balance / status panel -->
+<div id="block-tts-sub-branding" class="">
+    <div class="">
+        <!-- Payment Button -->
+        @auth
+            <button type="button" class=""
+                    data-bs-toggle="modal" data-bs-target="#paymentModal">
+                {{ __('header.payment') }}
+            </button>
+        @else
+            <a href="{{ route('login') }}" class="btn btn-success btn-sm px-2 payment-button">
+                {{ __('header.payment') }}
+            </a>
+        @endauth
+    </div>
+</div>
             <!-- Total Revenue -->
 
 

@@ -14,9 +14,14 @@ return new class extends Migration
         Schema::create('services', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->bigInteger('cost');
-            $table->integer('count');
+            $table->text('description')->nullable();
+            $table->decimal('cost', 10, 2);
+            $table->string('unit')->nullable();
+            $table->foreignId('service_owner_id')->constrained('users');
+            $table->enum('status', ['active', 'inactive'])->default('active');
             $table->timestamps();
+            $table->softDeletes();
+            $table->integer('count')->default(0);
         });
     }
 
